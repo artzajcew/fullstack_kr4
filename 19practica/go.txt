@@ -1,0 +1,2 @@
+запустить сервер: npm start
+перейти в сваггер: http://localhost:3000/api-docs

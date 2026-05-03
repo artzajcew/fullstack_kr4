@@ -1,0 +1,16 @@
+{
+  "name": "load-balancing-demo",
+  "version": "1.0.0",
+  "description": "Load balancing demo with Nginx and HAProxy",
+  "main": "server1.js",
+  "scripts": {
+    "start:server1": "node server1.js",
+    "start:server2": "node server2.js",
+    "start:server3": "node server3.js",
+    "start:all": "node server1.js & node server2.js & node server3.js",
+    "stop:all": "pkill -f 'node server'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
